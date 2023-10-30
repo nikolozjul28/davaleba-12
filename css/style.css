@@ -66,7 +66,7 @@ header {
     font-family: Poppins;
     font-weight: 400;
     line-height: 26px;
-    padding:8px 16px;
+    padding: 8px 16px;
     border: 1px solid #F30AEA;
     border-radius: 8px;
 }
@@ -74,7 +74,7 @@ header {
 .fa-cart-shopping {
     color: white;
     font-size: 16px;
-    padding:13px;
+    padding: 13px;
     background-color: #F30AEA;
     border-radius: 8px;
 }
@@ -87,17 +87,18 @@ header {
 .header_menu nav {
     max-width: 1440px;
     width: 100%;
-    padding:15px 0;
+    padding: 15px 0;
 }
 
 .header_menu ul {
     display: flex;
-    gap:96px;
+    gap: 96px;
     align-items: center;
     justify-content: center;
 }
 
-.no_active, .active {
+.no_active,
+.active {
     color: white;
     font-size: 20px;
     font-family: Poppins;
@@ -108,4 +109,160 @@ header {
 
 .active {
     border-bottom: 2px solid white;
+}
+
+.body_container {
+    padding: 64px 20%;
+    background-image: url("../images/cover\ image.png");
+    object-fit: cover;
+}
+
+.form2 {
+    background-color: rgba(28, 19, 37, 0.80);
+    display: block;
+    padding: 48px 20%;
+    border: 1px solid #B052B5;
+    border-radius: 20px;
+}
+
+.form2 label {
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.form2 h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    word-wrap: break-word;
+    margin-bottom: 80px;
+}
+
+.username_email_container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.username_email_container input {
+    width: 50%;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #B052B5;
+    color: rgba(158.31, 140.77, 157.61, 0.71);
+    border-radius: 8px;
+    padding: 11px 22px;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+#question {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #B052B5;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 24px;
+}
+
+textarea {
+    width: 100%;
+    height: 112px;
+    background-color: transparent;
+    border: 1px solid #B052B5;
+    color: rgba(158.31, 140.77, 157.61, 0.71);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 11px 22px;
+}
+
+#radio_text {
+    color: #B052B5;
+}
+
+#radio_form2 {
+    appearance: none;
+    accent-color: #B052B5;
+    margin-right: 8px;
+    background-color: transparent;
+    border: 2px solid #B052B5;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+#radio_form2:checked {
+    accent-color: #B052B5;
+}
+
+#sendbutton {
+    width: 100%;
+    padding: 19px 0;
+    text-align: center;
+    background-color: #F30AEA;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 26px;
+    word-wrap: break-word;
+    border: 0px;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 72px;
+    background-color: #01ACA9;
+}
+
+footer h2 {
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin-bottom: 16px;
+}
+
+footer i {
+    font-size: 24px;
+    color:#F5E0F5;
+    margin-right: 24px;
+}
+
+.footer_section_2 i {
+    margin-right:8px;
+}
+
+.footer_section_2 a {
+    color: white;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word;
+}
+
+footer p {
+    color: #F5E0F5;
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 23px;
+    word-wrap: break-word;
 }
