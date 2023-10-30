@@ -24,12 +24,12 @@
                 <h1>PLANT <br> SHOP</h1>
             </div>
 
-            <div class="search_div">
+            <form name="form1" class="search_div">
                 <input placeholder="What are you looking for?" type="text">
-                <button>
+                <button type="submit">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-            </div>
+            </form>
 
             <div class="login_and_shopping">
                 <a href="#">LOG IN</a>
@@ -51,6 +51,71 @@
         </div>
 
     </header>
+
+    <section class="body_container">
+        <form action="" name="form2" class="form2">
+
+            <h1>CONTACT US</h1>
+
+            <div class="username_email_container">
+            <input type="text" name="username" placeholder="Name" id="username">
+            <input type="text" name="email" placeholder="Email" id="email">
+            </div>
+
+            <br>
+            <label for="question">
+                Is your question about an existing order?
+            </label>
+            <br>
+            <select name="question" id="question">
+                <option value=""></option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br>
+            <label for="delivery_question">
+                I have a delivery question about my order
+            </label>
+            <br><input id="radio_form2" type="radio" name="delivery_question" value="I did not receive my order"><label id="radio_text" for="delivery_question">I did not receive my order</label>
+            <br><input id="radio_form2" type="radio" name="delivery_question" value="My order is incorrect or arrived damaged"><label id="radio_text" for="delivery_question">My order is incorrect or arrived damaged</label>
+            <br><input id="radio_form2" type="radio" name="delivery_question" value="Cancel my order"><label id="radio_text" for="delivery_question">Cancel my order</label>
+            <br><input id="radio_form2" type="radio" name="delivery_question" value="Change my shipping address"><label id="radio_text" for="delivery_question">Change my shipping address</label>
+            <br><br>
+            <label for="more_details">
+                Please provide more details below.
+            </label>
+            <br>
+            <textarea name="more_details" placeholder="Message" id="more_details" cols="30" rows="10"></textarea>
+            <br>
+            <input type="checkbox" name="newsletter" id="newsletter"><label for="newsletter">I want to receive the newsletter</label>
+            <br>
+            <button type="submit" id="sendbutton">SEND</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer_section_1">
+            <h2>Contact us</h2>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+        </div>
+
+        <div class="footer_section_2">
+            <h2>Contact us</h2>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i> New York, 94 Brodway</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> +555 67 88 00</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> plant@gmail.com</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <p>Copyright © 2023 House Plant Shop.</p>
+
+    </footer>
 
 </body>
 
